@@ -24,7 +24,7 @@ function App() {
     const dateStr = date.toISOString().split('T')[0];
     setSongEntries(prev => ({
       ...prev,
-      [dateStr]: song
+      [dateStr]: song2
     }));
   };
   
